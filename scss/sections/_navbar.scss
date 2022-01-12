@@ -1,0 +1,12 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.menu {
+  @include gradient;
+  padding: 1rem 5rem 1rem;
+
+  a,
+  li {
+    font-family: "Nunito Sans", sans-serif;
+  }
+}

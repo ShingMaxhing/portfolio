@@ -1,0 +1,12 @@
+@use "custom";
+
+// IMPORT COMPONENTS
+@use "./components/buttons";
+@use "./components/mixins";
+
+// IMPORT SECTIONS
+@use "./sections/navbar";
+@use "./sections/intro-section";
+@use "./sections/about-me";
+@use "./sections/contact";
+@use "./sections/footer";

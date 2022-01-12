@@ -1,0 +1,9 @@
+@use "../custom" as *;
+
+@mixin gradient {
+  background-image: linear-gradient(
+    to right,
+    rgb(78, 15, 78) 50%,
+    rgb(230, 53, 83)
+  );
+}
