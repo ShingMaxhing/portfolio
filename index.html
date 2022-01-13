@@ -8,7 +8,7 @@
 <!-- Stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
 <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 <!-- CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Shing Mae Portfolio</title>
@@ -17,47 +17,186 @@
     
 <!-- NAVBAR STARTS HERE -->
 <section>
-  <nav class="menu shadow fixed-top navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="menu fixed-top navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand text-white" href="index.html">Shing Mae &copy;</a>
+      <a class="navbar-brand mt-2" href="index.html"><img src="./images/logo.png" alt="logo"></a>
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        
+        <!-- HOME -->
         <ul class="navbar-nav">
-          
-          
-          <!-- ABOUT PART -->
+        <li class="nav-item">
+          <a href="#" class="glightbox nav-link " data-effect="fade" data-width="800px" data-zoomable="true" data-draggable="true">Home</a>
+        </li>
+
+        <!-- ABOUT PART -->
           <li class="nav-item">
-            <a href="#" class="glightbox nav-link text-white" data-effect="fade" data-width="800px" data-zoomable="true" data-draggable="true"> About Me</a>
+            <a href="#" class="glightbox nav-link" data-effect="fade" data-width="800px" data-zoomable="true" data-draggable="true"> About Me</a>
           </li>
 
           <!-- Portfolio -->
           <li class="nav-item">
-            <a href="#" class="glightbox nav-link text-white" data-effect="fade" data-width="800px" data-zoomable="true" data-draggable="true">Portfolio</a>
+            <a href="#" class="glightbox nav-link" data-effect="fade" data-width="800px" data-zoomable="true" data-draggable="true">Portfolio</a>
           </li>
-
           <!-- ABOUT PART ENDS -->
           <!-- DROPDOWN STARTS HERE -->
+
           <li class="nav-item dropdown">
-            <a class="nav-link active dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Contacts
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="mailto:sma101philippines@gmail.com">Email</a></li>
-              <li><a class="dropdown-item" href="tel:+639000000000">Mobile</a></li>
-          
+              <li><a class="dropdown-item" href="tel:+639000000000">Mobile</a></li>    
             </ul>
           </li>
           <!-- DROPDOWN STOPS HERE -->
-          
         </ul>
       </div>
     </div>
-    
   </nav>
 </section>
 <!-- NAVBAR STOPS HERE -->
+
+
+<!-- INTRO SECTION STARTS HERE -->
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 g-0">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="d-block w-100 imageCar" alt="image 1">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.pexels.com/photos/2033997/pexels-photo-2033997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100 imageCar" alt="image 2">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.pexels.com/photos/624015/pexels-photo-624015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="d-block w-100 imageCar" alt="image 3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END OF INTRO SECTION -->
+
+<!-- ABOUT ME SECTION -->
+<section id="service" class="our-service">
+  <div class="container">
+    <div class="container">
+      <div class="row text-center my-5">
+        <h1 class="display-5 fw-bold">About Me</h1>
+        <div class="heading-line mb-0"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- START CIVIL CONTENT -->
+  <div class="container-fluid px-5">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-0">
+        <div class="services__content">
+          <div class="icon d-block fas fa-hard-hat"></div>
+          <h3 class="display-3--title mt-1">Civil Engineering</h3>
+          <p class="lh-lg skill">
+           My formal education is Civil Engineering. 
+           I have worked before in different sectors.
+           Get to know more of the past.
+          </p>
+          <a href="civil.html">
+          <button type="button" class="rounded-pill btn-rounded--c border-primary">
+            Learn more
+            <span>
+                <i class="fas fa-chevron-right"></i>
+            </span>
+          </button>
+        </a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-1 text-end">
+        <div class="service d-blocks__pic">
+          <img src="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="civil engineering" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  
+    <!-- START THE WEB DEV CONTENT -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-1 text-start">
+        <div class="services__pic">
+          <img src="images/skills/coding.png" alt="web development" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-1">
+        <div class="services__content">
+          <div class="icon d-block fas fa-code"></div>
+          <h3 class="display-3--title mt-1">Web Development</h3>
+          <p class="lh-lg skill">
+          I just started web development but I'm really having fun. It made me see my output real time which 
+          is very different from my own feild in Civil Engineering.
+          Get to know more of the present.
+          </p>
+          <a href="web_dev.html">
+          <button type="button" class="rounded-pill btn-rounded--w border-primary">Learn more
+            <span>
+                <i class="fas fa-chevron-right"></i>
+            </span>
+        </button>
+        </a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- START THE CONTENT CREATOR CONTENT -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-pencil-ruler"></div>
+          <h3 class="display-3--title mt-1">Content Creator</h3>
+          <p class="lh-lg skill">
+        As my hobby, I like to learn something that gives me an outlet of my creative side. 
+        I like to draw in the past and even now. But I want something that will stay for a long time.
+        That's why I made YT channels.
+        Get to know me more.
+          </p>
+          <a href="content_create.html">
+          <button type="button" class="rounded-pill btn-rounded--cc border-primary">Learn more
+            <span>
+                <i class="fas fa-chevron-right"></i>
+            </span>
+        </button>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic"></div>
+        <img src="images/skills/design.png" alt="drawing" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+
 
 </body>
 <!-- Script Bootstrap -->

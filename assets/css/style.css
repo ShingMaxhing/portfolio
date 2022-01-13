@@ -11119,27 +11119,126 @@ textarea.form-control-lg {
   }
 }
 .menu {
-  background-image: linear-gradient(to right, #4e0f4e 50%, #e63553);
-  padding: 1rem 5rem 1rem;
+  padding: 1rem 7rem 1rem;
+  position: fixed;
 }
-.menu a,
-.menu li {
-  font-family: "Nunito Sans", sans-serif;
+.menu img {
+  height: 3.2rem;
+}
+@media (max-width: 767.98px) {
+  .menu img {
+    height: 3rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .menu img {
+    height: 2.5rem;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .menu img {
+    display: none;
+  }
+}
+.menu .nav-item > a {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  color: white !important;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 884px) {
+  .menu .nav-item > a {
+    text-align: center;
+  }
+}
+.menu .nav-item > a:hover {
+  display: block;
+  transition: 0.8s;
+  transform: scale(1.1);
+}
+.menu .dropdown-item {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.2rem;
+}
+.menu .dropdown-item:hover {
+  transition: 1s;
+  background-color: rgba(216, 112, 147, 0.5);
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  -webkit-appearance: none;
+  outline: 0;
 }
 
-@media only screen and (max-width: 600px) {
-  .navbar {
-    padding: 1rem 2rem 1rem;
+.carousel-item {
+  position: absolute;
+  object-fit: cover;
+}
+
+.imageCar {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.services {
+  position: relative;
+  padding: 1rem 0;
+}
+.services__content {
+  padding: 1rem;
+  margin-top: 0rem;
+}
+.services__content p {
+  font-size: 0.8rem;
+}
+@media (min-width: 992px) {
+  .services__content p {
+    font-size: 1rem;
   }
 }
-a {
-  color: white;
+@media (min-width: 992px) {
+  .services__content {
+    margin-top: 5rem;
+  }
+}
+.services__content .icon {
+  font-size: 1.5rem;
+  color: #3d0770;
+}
+@media (min-width: 992px) {
+  .services__content .icon {
+    margin-top: 2.5rem;
+  }
+}
+.services__pic {
+  max-width: 100%;
+}
+
+.skill {
+  position: relative;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem 2rem 2rem 2rem;
+  background: rgba(179, 33, 77, 0.2);
+  letter-spacing: 0.5px;
+}
+
+.skill:hover {
+  transform: translateX(4px) translateY(-4px);
+  background: rgba(179, 33, 77, 0.4);
+  transition: 1s;
+}
+
+@media (min-width: 576px) {
+  .line {
+    width: 5rem;
+    height: 0.1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
