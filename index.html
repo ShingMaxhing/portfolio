@@ -8,6 +8,7 @@
 <!-- Stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/fontawesome.css">
+    <link rel="stylesheet" href="./assets/vendors/css/glightbox.min.css">
 <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -31,17 +32,17 @@
         <!-- HOME -->
         <ul class="navbar-nav">
         <li class="nav-item">
-          <a href="#" class="glightbox nav-link " data-effect="fade" data-width="800px" data-zoomable="true" data-draggable="true">Home</a>
+          <a href="#" class=" nav-link " data-effect="fade" data-width="800px" data-zoomable="true" data-draggable="true">Home</a>
         </li>
 
         <!-- ABOUT PART -->
           <li class="nav-item">
-            <a href="#" class="glightbox nav-link" data-effect="fade" data-width="800px" data-zoomable="true" data-draggable="true"> About Me</a>
+            <a href="#aboutMe" class=" nav-link" data-effect="fade" data-width="800px" data-zoomable="true" data-draggable="true"> About Me</a>
           </li>
 
           <!-- Portfolio -->
           <li class="nav-item">
-            <a href="#" class="glightbox nav-link" data-effect="fade" data-width="800px" data-zoomable="true" data-draggable="true">Portfolio</a>
+            <a href="#portfolio" class=" nav-link" data-effect="fade" data-width="800px" data-zoomable="true" data-draggable="true">Portfolio</a>
           </li>
           <!-- ABOUT PART ENDS -->
           <!-- DROPDOWN STARTS HERE -->
@@ -51,7 +52,7 @@
               Contacts
             </a>
             <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="mailto:sma101philippines@gmail.com">Email</a></li>
+              <li><a class="dropdown-item" href="#contacts">Email</a></li>
               <li><a class="dropdown-item" href="tel:+639000000000">Mobile</a></li>    
             </ul>
           </li>
@@ -71,7 +72,13 @@
       <div class="col-12 g-0">
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <div class="carousel-caption d-md-block">
+            <div class="carousel-caption">
+              <p class="paraIntro d-flex flex-column justify-content-end">
+                Thank you for visiting my page!
+              </p>
+              <p class="paraIntro2 d-flex flex-column justify-content-end">
+                Feel free to scroll down
+              </p>
               <h1 class="welcome">Welcome</h1>
             </div>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -81,13 +88,13 @@
 
           <div class="carousel-inner shadow">
             <div class="carousel-item active">
-              <img src="https://images.pexels.com/photos/707837/pexels-photo-707837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=9400" class="d-block w-100 imageCar" alt="image 1">
+              <img src="https://images.pexels.com/photos/707837/pexels-photo-707837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=9400" class="d-block imageCar" alt="image 1">
             </div>
             <div class="carousel-item">
-              <img src=" https://images.pexels.com/photos/2362699/pexels-photo-2362699.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="d-block w-100 imageCar" alt="image 2">
+              <img src=" https://images.pexels.com/photos/2362699/pexels-photo-2362699.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="d-block imageCar" alt="image 2">
             </div>
             <div class="carousel-item">
-              <img src="https://images.pexels.com/photos/1335971/pexels-photo-1335971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100 imageCar" alt="image 3">
+              <img src="https://images.pexels.com/photos/1335971/pexels-photo-1335971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block imageCar" alt="image 3">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -109,7 +116,7 @@
 <section id="skills" class="skills-section">
   <div class="container">
       <div class="row text-center pt-5">
-        <h1 class="display-4 fw-bold">About Me</h1>
+        <h1 class="display-4 fw-bold" id="aboutMe">About Me</h1>
       </div>
     </div>
   </div>
@@ -125,7 +132,7 @@
           <p class="lh-lg skill">
            My formal education is Civil Engineering. 
            I have worked before in different sectors.
-           Get to know more of the past.
+           I'm a license Master Plumbler and I also have different training certificates that upgrades my skills in line with Engineering. To know more about my eligibility and experience, you can click this <a class="glightbox resume" href="" download>RESUME</a> link. 
           </p>
         </div>
       </div>
@@ -153,7 +160,7 @@
           <p class="lh-lg skill">
             I just started web development but I'm really having fun. It made me see my output real time which 
             is very different from my own feild in Civil Engineering.
-            Get to know more of the present.
+            I like making front end websites and learning new coding techniques and technology use in the field of Software Development.
           </p>
         </div>
       </div>
@@ -172,8 +179,7 @@
         <p class="lh-lg skill">    
           As my hobby, I like to learn something that gives me an outlet of my creative side. 
           I like to draw in the past and even now. But I want something that will stay for a long time.
-          That's why I made YT channels.
-          Get to know me more.
+          That's why I make short videos and upload it online if I have time.
           </p>
         </div>
       </div>
@@ -193,7 +199,7 @@
 <section id="portfolio" class="portfolio mb-5">
   <div class="container">
     <div class="row text-center">
-      <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
+      <h1 class="display-3 fw-bold text-capitalize" id="portfolio">Portfolio</h1>
       <p class="lead">
         Learn more of my hobbies and skills
       </p>
@@ -329,10 +335,10 @@
 
 
 <!-- CONTACT SECTION -->
-<section class="pb-5 contact-section get-started" id="contact">
+<section class="contact-section get-started" id="contact">
   <div class="container">
     <div class="row text-center">
-      <h1 class="display-3 fw-bold text-capitalize">
+      <h1 class="display-3 fw-bold text-capitalize" id="contacts">
         Email Me
       </h1>
       <div class="heading-line"></div>
@@ -342,13 +348,13 @@
     </div>
     <!-- START THE CTA CONTENT -->
     <div class="row text-white">
-      <div class="col-12 col-lg-6 gradient shadow p-3">
-        <div class="cta-info w-100">
+      <div class="col-12 col-lg-6 shadow p-3 location">
+        
           <h4 class="display-4 fw-bold">
             Find Location
           </h4>
           <iframe class="g_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d989.8826556683549!2d125.607625529203!3d7.064303030605355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d78c7550851%3A0xc577efa1d368e43a!2sCITY%20ENGINEER&#39;S%20OFFICE!5e0!3m2!1sen!2sph!4v1642135071425!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
+        
       </div>
       <!-- CONTACT FORM -->
       <div class="col-12 col-lg-6 bg-white shadow p-3">
@@ -374,7 +380,7 @@
 </div>
 
 <div class="text-center d-grid mt-1">
-  <button type="submit" value="Submit" name="submit" class="btn bg-secondary text-white rounded-pill pt-3 pb-3">
+  <button type="submit" value="Submit" name="submit" class="btn bg-success text-white rounded-pill pt-3 pb-3">
     submit
     <i class="fas fa-paper-plane"></i>
   </button>
@@ -386,7 +392,166 @@
     </div>
   </div>
 </section>
+
+
+<!-- FOOTER SECTION -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <!-- CONTENT FOR THE MOBILE NUMBER -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+            <path d="M15 7a2 2 0 0 1 2 2" />
+            <path d="M15 3a6 6 0 0 1 6 6" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="tel:0900000000" class="contact-box__info--title">+63 9000000000</a>
+          <p class="contact-box__info--subtitle">Mon-Fri 9am-5pm</p>
+        </div>
+      </div>
+      <!-- CONTENT FOR EMAIL -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <rect x="3" y="5" width="18" height="14" rx="2" />
+            <polyline points="3 7 12 13 21 7" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="mailto:sma101philippines@gmail.com" class="contact-box__info--title">sma101philippines@gmail.com</a>
+          <p class="contact-box__info--subtitle">Online Support</p>
+        </div>
+      </div>
+      <!-- CONTENT FOR LOCATION -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="18" y1="6" x2="18" y2="6.01" />
+            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+            <line x1="9" y1="4" x2="9" y2="17" />
+            <line x1="15" y1="15" x2="15" y2="20" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="https://www.google.com/maps/place/Davao+City,+Davao+del+Sur/@7.2532789,125.1708762,10z/data=!3m1!4b1!4m5!3m4!1s0x32f96d9f519e327f:0xb53a24589f79c573!8m2!3d7.190708!4d125.455341" target="_blank" class="contact-box__info--title">Davao, Philippines</a>
+          <p class="contact-box__info--subtitle">Davao City 8000</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- START THE SOCIAL MEDIA CONTENT -->
+<div class="footer-sm" style="background-color: #212121;">
+  <div class="container">
+    <div class="row py-4 text-center text-white">
+
+    <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+      connect with me on social media
+    </div>
+    <div class="col-lg-7 col-md-6">
+      <a href="https://www.linkedin.com/in/blue-philyt-580a56220/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.youtube.com/channel/UCtg2yEBq8ZunUmLMPal-KBw" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="https://www.facebook.com/BluePhilYoutube" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- START THE CONTENT FOR THE COMPANY INFO -->
+<div class="container mt-5">
+  <div class="row text-white justify-content-center mt-3 pb-3">
+<div class="col-12 col-sm-6 col-lg-6 mx-auto">
+  <h5 class="text-capitalize fw-bold">Shing Mae Portfolio</h5>
+  <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+  <p class="lh-lg">
+    A little short thank you message to all the people who've helped me in this journey.
+    I'm truly blessed to have a supportive family and friends who are with me and didn't
+    give up on me.
+    <br> To those who've pushed my limits even further. You know who you are.
+    <br> Thank you & May our bond be even stronger.
+    <br> Cheers!!
+  </p>
+</div>
+
+<div class="col-12 col-sm-6 col-lg-2 mb-4">
+  <h5 class="text-capitalize fw-bold" data-bs-toggle="tooltip" data-bs-placement="top" title="products used in the featured videos & YT channel">Products</h5>
+  <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+  <ul class="list-inline company-list">
+    <li><a href="https://www.adobe.com/">Adobe Premiere Pro</a></li>
+    <li><a href="https://www.adobe.com/">Adobe Media Encoder</a></li>
+    <li><a href="https://www.adobe.com/">Adobe Photoshop</a></li>
+    <li><a href="https://www.adobe.com/">Adobe After Effects</a></li>
+  </ul>
+</div>
+<div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+  <h5 class="text-capitalize fw-bold" data-bs-toggle="tooltip" data-bs-placement="top" title="products and links used in this web">Useful links</h5>
+  <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+  <ul class="list-inline company-list">
+    <li><a href="https://getbootstrap.com/" target="_blank" >Bootstrap</a></li>
+    <li><a href="https://www.pexels.com" target="_blank">Pexels</a></li>
+    <li><a href="https://www.manypixels.co/" target="_blank">ManyPixels</a></li>
+    <li><a href="https://getwaves.io/" target="_blank">Get waves</a></li>
+    <li><a href="https://biati-digital.github.io/glightbox/" target="_blank">Glightbox</a></li>
+    <li><a href="https://www.heroku.com" target="_blank">Heroku</a></li>
+    <li><a href="https://code.visualstudio.com/">VS code</a></li>
+    <li><a href="https://nodejs.org/en/">Node js</a></li>
+    <li><a href="https://www.npmjs.com/">NPM</a></li>
+  </ul>
+</div>
+<div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+  <h5 class="text-capitalize fw-bold" data-bs-toggle="tooltip" data-bs-placement="top" title="contact offices for ref">contacts</h5>
+  <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+  <ul class="list-inline company-list">
+    <li><a href="#">UM</a></li>
+    <li><a href="#">Core I.T.</a></li>
+    <li><a href="#">PSA Davao</a></li>
+    <li><a href="#">CEO Davao</a></li>
+  </ul>
+</div>
+</div>
+</div>
+
+
+
+<!-- START THE COPYRIGHT INFO -->
+<div class="footer-bottom pt-5 pb-5">
+  <div class="container">
+    <div class="row text-center text-white">
+      <div class="col-12">
+        <div class="footer-bottom__copyright">
+&COPY; Copyright 2021 <a href="#">BluPhilYT</a> | Created by <a href="#"> Shing Mae</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</footer>
+
+
+
 </body>
+<!-- Glightbox -->
+  <script src="./assets/vendors/js/glightbox.min.js"></script>
+  <script type="text/javascript">
+    const lightbox = GLightbox({
+      'href': '/images/resume code.jpg',
+      'type': 'image',
+      'alt': 'image text alternatives'
+              });
+    </script>
 <!-- Script -->
   <script src="./script.js"></script>
 <!-- Script Bootstrap -->

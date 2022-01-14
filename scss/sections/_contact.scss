@@ -3,13 +3,18 @@
 
 .contact-section {
   background-color: $gray-200;
+  padding-bottom: 5rem;
+}
+
+.display-3 {
+  text-shadow: -3px 3px 5px rgb(58, 50, 50, 0.3);
+}
+
+.location {
+  background-color: #d87093;
 }
 
 .g_map {
   height: 60vh;
   width: 100%;
-}
-
-.submit {
-  background: $secondary;
 }

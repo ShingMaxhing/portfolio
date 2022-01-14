@@ -1,6 +1,15 @@
-// IMPORT BOOTSTRAP 5
+$blue: #0d6efd;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d87093;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
 
-// BLACK AND WHITE
+// BLACK & WHITE
 $white: #fff;
 $gray-100: #f8f9fa;
 $gray-200: #e9ecef;
@@ -13,12 +22,8 @@ $gray-800: #343a40;
 $gray-900: #212529;
 $black: #000;
 
-// SET COLORS
-
-$purple: #3d0770;
-$pink: #d87093;
-
-$primary: $purple;
+$primary: $pink;
 $secondary: $pink;
+$footer: rgb(24, 23, 23);
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
