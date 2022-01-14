@@ -11249,11 +11249,32 @@ textarea.form-control-lg {
     width: 17rem;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 820px) {
   .paraIntro,
 .paraIntro2 {
-    height: 15rem;
-    width: 30rem;
+    height: 10rem;
+    width: 23rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .paraIntro,
+.paraIntro2 {
+    height: 10rem;
+    width: 23rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .paraIntro,
+.paraIntro2 {
+    height: 10rem;
+    width: 20rem;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .paraIntro,
+.paraIntro2 {
+    height: 10rem;
+    width: 25rem;
   }
 }
 
@@ -11285,10 +11306,34 @@ textarea.form-control-lg {
     transform: translate(-20%, -280%);
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 820px) {
+  .paraIntro {
+    font-size: 1.2rem;
+    transform: translate(-20%, -500%);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .paraIntro {
+    font-size: 1.2rem;
+    transform: translate(-20%, -450%);
+  }
+}
+@media only screen and (min-width: 912px) {
+  .paraIntro {
+    font-size: 1.2rem;
+    transform: translate(-20%, -600%);
+  }
+}
+@media only screen and (min-width: 1024px) {
   .paraIntro {
     font-size: 1.5rem;
-    transform: translate(-30%, -260%);
+    transform: translate(-30%, -230%);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .paraIntro {
+    font-size: 1.5rem;
+    transform: translate(-30%, -300%);
   }
 }
 
@@ -11320,10 +11365,34 @@ textarea.form-control-lg {
     transform: translate(-8%, -200%);
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 820px) {
   .paraIntro2 {
     font-size: 2rem;
-    transform: translate(-1%, -210%);
+    transform: translate(-8%, -420%);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .paraIntro2 {
+    font-size: 2rem;
+    transform: translate(-8%, -370%);
+  }
+}
+@media only screen and (min-width: 912px) {
+  .paraIntro2 {
+    font-size: 2rem;
+    transform: translate(-8%, -520%);
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .paraIntro2 {
+    font-size: 2rem;
+    transform: translate(-1%, -150%);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .paraIntro2 {
+    font-size: 2rem;
+    transform: translate(-1%, -220%);
   }
 }
 
@@ -11396,22 +11465,46 @@ textarea.form-control-lg {
     transform: translate(-20%, -800%);
   }
 }
+@media only screen and (min-width: 390px) {
+  .welcome {
+    font-size: 4.3rem;
+    transform: translate(-14%, -560%);
+  }
+}
 @media only screen and (min-width: 393px) {
   .welcome {
-    font-size: 4rem;
-    transform: translate(-20%, -790%);
+    font-size: 4.5rem;
+    transform: translate(-15%, -540%);
   }
 }
 @media only screen and (min-width: 414px) {
   .welcome {
     font-size: 5rem;
-    transform: translate(-20%, -650%);
+    transform: translate(-20%, -480%);
   }
 }
 @media only screen and (min-width: 540px) {
   .welcome {
     font-size: 5rem;
-    transform: translate(-20%, -490%);
+    transform: translate(-20%, -500%);
+  }
+}
+@media only screen and (min-width: 820px) {
+  .welcome {
+    font-size: 6rem;
+    transform: translate(-10%, -700%);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .welcome {
+    font-size: 6rem;
+    transform: translate(-10%, -630%);
+  }
+}
+@media only screen and (min-width: 912px) {
+  .welcome {
+    font-size: 6rem;
+    transform: translate(-10%, -850%);
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -11423,14 +11516,29 @@ textarea.form-control-lg {
 @media only screen and (min-width: 1024px) {
   .welcome {
     font-size: 6rem;
-    transform: translate(-20%, -300%);
+    transform: translate(-20%, -355%);
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
   .welcome {
     font-size: 8rem;
-    transform: translate(-20%, -400%);
+    transform: translate(-20%, -370%);
   }
+}
+
+.welStyle:hover {
+  transition: 1s;
+  transform: translateX(4px);
+}
+
+.thankStyle:hover {
+  transition: 1s;
+  transform: translateX(-4px);
+}
+
+.scrollStyle:hover {
+  transition: 1s;
+  transform: translateX(4px);
 }
 
 .skills-section {
@@ -11630,6 +11738,14 @@ textarea.form-control-lg {
 .g_map {
   height: 60vh;
   width: 100%;
+}
+
+.submit {
+  background-color: #d87093;
+}
+
+.contact-box__info:hover {
+  color: #d87093;
 }
 
 .footer {
