@@ -223,14 +223,17 @@
 .welStyle:hover {
   transition: 1s;
   transform: translateX(4px);
+  cursor: pointer;
 }
 
 .thankStyle:hover {
   transition: 1s;
   transform: translateX(-4px);
+  cursor: pointer;
 }
 
 .scrollStyle:hover {
   transition: 1s;
   transform: translateX(4px);
+  cursor: pointer;
 }

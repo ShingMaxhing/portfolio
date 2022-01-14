@@ -11118,6 +11118,25 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.back-to-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 2;
+  transition: 0.3s;
+  border: 1px white;
+}
+.back-to-top i {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .menu {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1rem;
@@ -11529,16 +11548,19 @@ textarea.form-control-lg {
 .welStyle:hover {
   transition: 1s;
   transform: translateX(4px);
+  cursor: pointer;
 }
 
 .thankStyle:hover {
   transition: 1s;
   transform: translateX(-4px);
+  cursor: pointer;
 }
 
 .scrollStyle:hover {
   transition: 1s;
   transform: translateX(4px);
+  cursor: pointer;
 }
 
 .skills-section {
