@@ -5,6 +5,7 @@
   padding: 1rem 7rem 1rem;
   position: fixed;
 
+  // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   img {
     height: 3.2rem;
 
@@ -32,7 +33,6 @@
 
     &:hover {
       display: block;
-      // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
       transition: 0.8s;
       transform: scale(1.1);
     }

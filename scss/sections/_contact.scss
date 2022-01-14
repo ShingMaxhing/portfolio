@@ -1,0 +1,15 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.contact-section {
+  background-color: $gray-200;
+}
+
+.g_map {
+  height: 60vh;
+  width: 100%;
+}
+
+.submit {
+  background: $secondary;
+}
