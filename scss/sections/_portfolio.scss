@@ -69,17 +69,18 @@
     color: $secondary;
   }
 }
-
 .p_int,
 .pCan {
   display: block;
-  padding: 1rem;
   padding-top: 3rem;
   color: $black;
 }
 
 .pCan {
   text-align: justify;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 3.5rem;
 }
 
 // YOUTUBE BUTTON
