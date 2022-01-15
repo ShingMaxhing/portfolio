@@ -21,7 +21,6 @@
         font-size: 1rem;
       }
     }
-
     @include media-breakpoint-up(lg) {
       margin-top: 5rem;
     }
@@ -48,12 +47,12 @@
   padding: 2rem 2rem 2rem 2rem;
   background: rgba($color: $primary, $alpha: 0.3);
   letter-spacing: 0.5px;
-}
 
-.skill:hover {
-  transform: translateX(4px) translateY(-4px);
-  background: rgba($color: $primary, $alpha: 0.5);
-  transition: 1s;
+  &:hover {
+    transform: translateX(4px) translateY(-4px);
+    background: rgba($color: $primary, $alpha: 0.5);
+    transition: 1s;
+  }
 }
 
 .line {
@@ -61,10 +60,6 @@
     width: 5rem;
     height: 0.1rem;
   }
-}
-
-.space {
-  padding-top: 7rem;
 }
 
 .resume {

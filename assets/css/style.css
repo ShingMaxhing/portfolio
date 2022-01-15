@@ -11610,7 +11610,6 @@ textarea.form-control-lg {
   background: rgba(216, 112, 147, 0.3);
   letter-spacing: 0.5px;
 }
-
 .skill:hover {
   transform: translateX(4px) translateY(-4px);
   background: rgba(216, 112, 147, 0.5);
@@ -11622,10 +11621,6 @@ textarea.form-control-lg {
     width: 5rem;
     height: 0.1rem;
   }
-}
-
-.space {
-  padding-top: 7rem;
 }
 
 .resume {
@@ -11702,7 +11697,6 @@ textarea.form-control-lg {
 .ofc {
   position: relative;
   width: 26rem;
-  padding-right: 1rem;
 }
 .ofc .first {
   font-size: 1.5rem;
