@@ -69,10 +69,18 @@
     }
 
     &:hover {
-      background-color: rgba(255, 68, 131, 0.5);
       display: block;
       transition: 0.8s;
       transform: scale(1.1);
+    }
+
+    @include media-breakpoint-up(lg) {
+      &:hover {
+        background-color: rgba(255, 68, 131, 0.5);
+        display: block;
+        transition: 0.8s;
+        transform: scale(1.1);
+      }
     }
   }
 

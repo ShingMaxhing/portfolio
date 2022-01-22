@@ -12,7 +12,7 @@
 
   &__icon {
     width: 2rem;
-    stroke: #d87093;
+    stroke: $primary;
     padding-top: 0.5rem;
 
     @include media-breakpoint-up(sm) {
@@ -50,6 +50,10 @@
   a {
     color: $white;
 
+    &:hover {
+      color: $primary;
+    }
+
     i {
       font-size: 1rem;
       margin-left: 1rem;
@@ -76,7 +80,7 @@
       text-decoration: none;
 
       &:hover {
-        color: #d87093;
+        color: $primary;
       }
     }
   }
@@ -95,7 +99,7 @@
       text-decoration: none;
 
       &:hover {
-        color: #d87093;
+        color: $primary;
         text-decoration: underline;
       }
     }
