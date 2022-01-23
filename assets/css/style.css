@@ -11733,8 +11733,31 @@ textarea.form-control-lg {
 .ofc .first {
   font-size: 1.5rem;
   color: #0dcaf0;
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  animation-name: user;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
+@keyframes user {
+  0% {
+    color: #d87093;
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    color: #ced4da;
+    left: 0px;
+    top: -5px;
+  }
+  100% {
+    color: #0dcaf0;
+    left: 0px;
+    top: 0px;
+  }
+}
 .p_int,
 .pCan {
   display: block;
