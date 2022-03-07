@@ -1,7 +1,22 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contact-section {
+  position: relative;
+  display: flex;
+  align-items: center;
   background-color: $gray-200;
   padding-bottom: 5rem;
 
@@ -32,4 +47,28 @@
 
 .contact-box__info--title:hover {
   color: #d87093;
+}
+
+.svg {
+  position: relative;
+  display: block;
+  width: calc(103% + 1.3px);
+  height: 262px;
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: translateY(-10%);
+}
+
+.layer {
+  background-image: url("../../layer_down.svg");
+}
+
+.flip {
+  transform: rotate(180deg);
 }

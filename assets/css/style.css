@@ -11762,7 +11762,7 @@ textarea.form-control-lg {
   }
 }
 .portfolio {
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 .portfolio h1 {
   text-shadow: -3px 3px 5px rgba(58, 50, 50, 0.3);
@@ -11889,7 +11889,60 @@ textarea.form-control-lg {
   border: 0.1rem solid rgba(255, 255, 255, 0.8);
 }
 
+.ref {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 5rem;
+  height: 80%;
+  padding-bottom: 3rem;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* Blobs SVG background image via https://haikei.app/ */
+.blob-motion {
+  position: absolute;
+  transform: translateY(-20%);
+  padding-bottom: 8rem;
+  z-index: 0;
+}
+
+.blob-content {
+  z-index: 1;
+}
+
+.skills-ref {
+  padding-left: 2rem;
+}
+
+.avatar {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 0.2rem;
+  transform: translate(15%, -20%);
+  z-index: 3;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contact-section {
+  position: relative;
+  display: flex;
+  align-items: center;
   background-color: #e9ecef;
   padding-bottom: 5rem;
 }
@@ -11920,6 +11973,30 @@ textarea.form-control-lg {
 
 .contact-box__info--title:hover {
   color: #d87093;
+}
+
+.svg {
+  position: relative;
+  display: block;
+  width: calc(103% + 1.3px);
+  height: 262px;
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: translateY(-10%);
+}
+
+.layer {
+  background-image: url("../../layer_down.svg");
+}
+
+.flip {
+  transform: rotate(180deg);
 }
 
 .footer {
@@ -12020,7 +12097,7 @@ textarea.form-control-lg {
   height: 3rem;
   right: 1.875rem;
   bottom: 1.875rem;
-  z-index: 2;
+  z-index: 5;
   transition: 0.3s;
 }
 .back-to-top i {
