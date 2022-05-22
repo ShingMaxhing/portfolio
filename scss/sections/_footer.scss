@@ -121,3 +121,9 @@
     @include absoluteCenter;
   }
 }
+
+.quote{
+  width: 35vw;
+  text-align: justify;
+  color: $gray-500;
+}

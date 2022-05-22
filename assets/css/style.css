@@ -11890,7 +11890,7 @@ textarea.form-control-lg {
 }
 .btn-rounded-1:hover {
   background-color: maroon;
-  transition: 0.5s;
+  transition: 0.1s;
   color: #fff;
   border: 0.1rem solid rgba(255, 255, 255, 0.8);
 }
@@ -12161,6 +12161,12 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.quote {
+  width: 35vw;
+  text-align: justify;
+  color: #adb5bd;
 }
 
 /*# sourceMappingURL=style.css.map */
