@@ -11381,22 +11381,10 @@ textarea.form-control-lg {
     transform: translate(-30%, -230%);
   }
 }
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1280px) {
   .paraIntro {
     font-size: 1.5rem;
     transform: translate(-30%, -300%);
-  }
-}
-@media only screen and (width: 1366px) {
-  .paraIntro {
-    font-size: 1.5rem;
-    transform: translate(-30%, -240%);
-  }
-}
-@media only screen and (width: 768px) {
-  .paraIntro {
-    font-size: 1.5rem;
-    transform: translate(-30%, -240%);
   }
 }
 
@@ -11456,24 +11444,6 @@ textarea.form-control-lg {
   .paraIntro2 {
     font-size: 2rem;
     transform: translate(-1%, -220%);
-  }
-}
-@media only screen and (min-width: 1366px) {
-  .paraIntro2 {
-    font-size: 2rem;
-    transform: translate(-1%, -220%);
-  }
-}
-@media only screen and (width: 1366px) {
-  .paraIntro2 {
-    font-size: 2rem;
-    transform: translate(-1%, -160%);
-  }
-}
-@media only screen and (height: 768px) {
-  .paraIntro2 {
-    font-size: 2rem;
-    transform: translate(-1%, -160%);
   }
 }
 
@@ -11604,18 +11574,6 @@ textarea.form-control-lg {
   .welcome {
     font-size: 8rem;
     transform: translate(-20%, -370%);
-  }
-}
-@media only screen and (width: 1366px) {
-  .welcome {
-    font-size: 8rem;
-    transform: translate(-20%, -310%);
-  }
-}
-@media only screen and (height: 768px) {
-  .welcome {
-    font-size: 8rem;
-    transform: translate(-20%, -310%);
   }
 }
 
