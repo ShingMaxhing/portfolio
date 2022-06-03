@@ -90,6 +90,10 @@
     font-size: 1.5rem;
     transform: translate(-30%, -240%);
   }
+  @media only screen and (width: 768px) {
+    font-size: 1.5rem;
+    transform: translate(-30%, -240%);
+  }
 }
 
 .paraIntro2 {
@@ -136,6 +140,10 @@
     transform: translate(-1%, -220%);
   }
   @media only screen and (width: 1366px) {
+    font-size: 2rem;
+    transform: translate(-1%, -160%);
+  }
+  @media only screen and (height: 768px) {
     font-size: 2rem;
     transform: translate(-1%, -160%);
   }
@@ -232,6 +240,10 @@
     transform: translate(-20%, -370%);
   }
   @media only screen and (width: 1366px) {
+    font-size: 8rem;
+    transform: translate(-20%, -310%);
+  }
+  @media only screen and (height:768px) {
     font-size: 8rem;
     transform: translate(-20%, -310%);
   }
