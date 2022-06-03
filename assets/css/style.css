@@ -11231,7 +11231,7 @@ textarea.form-control-lg {
 }
 @media only screen and (min-width: 375px) {
   .menu img {
-    height: 2.6rem;
+    height: 2rem;
   }
 }
 .menu .nav-item > a {
@@ -11381,10 +11381,16 @@ textarea.form-control-lg {
     transform: translate(-30%, -230%);
   }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1366px) {
   .paraIntro {
     font-size: 1.5rem;
     transform: translate(-30%, -300%);
+  }
+}
+@media only screen and (width: 1366px) {
+  .paraIntro {
+    font-size: 1.5rem;
+    transform: translate(-30%, -240%);
   }
 }
 
@@ -11444,6 +11450,18 @@ textarea.form-control-lg {
   .paraIntro2 {
     font-size: 2rem;
     transform: translate(-1%, -220%);
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .paraIntro2 {
+    font-size: 2rem;
+    transform: translate(-1%, -220%);
+  }
+}
+@media only screen and (width: 1366px) {
+  .paraIntro2 {
+    font-size: 2rem;
+    transform: translate(-1%, -160%);
   }
 }
 
@@ -11574,6 +11592,12 @@ textarea.form-control-lg {
   .welcome {
     font-size: 8rem;
     transform: translate(-20%, -370%);
+  }
+}
+@media only screen and (width: 1366px) {
+  .welcome {
+    font-size: 8rem;
+    transform: translate(-20%, -310%);
   }
 }
 

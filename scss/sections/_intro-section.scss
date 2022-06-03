@@ -44,6 +44,7 @@
     height: 10rem;
     width: 25rem;
   }
+  
 }
 
 .paraIntro {
@@ -81,9 +82,13 @@
     font-size: 1.5rem;
     transform: translate(-30%, -230%);
   }
-  @media only screen and (min-width: 1280px) {
+  @media only screen and (min-width: 1366px) {
     font-size: 1.5rem;
     transform: translate(-30%, -300%);
+  }
+  @media only screen and (width: 1366px) {
+    font-size: 1.5rem;
+    transform: translate(-30%, -240%);
   }
 }
 
@@ -125,6 +130,14 @@
   @media only screen and (min-width: 1280px) {
     font-size: 2rem;
     transform: translate(-1%, -220%);
+  }
+  @media only screen and (min-width: 1366px) {
+    font-size: 2rem;
+    transform: translate(-1%, -220%);
+  }
+  @media only screen and (width: 1366px) {
+    font-size: 2rem;
+    transform: translate(-1%, -160%);
   }
 }
 
@@ -217,6 +230,10 @@
   @media only screen and (min-width: 1280px) {
     font-size: 8rem;
     transform: translate(-20%, -370%);
+  }
+  @media only screen and (width: 1366px) {
+    font-size: 8rem;
+    transform: translate(-20%, -310%);
   }
 }
 
