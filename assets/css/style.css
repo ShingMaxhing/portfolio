@@ -11653,18 +11653,29 @@ textarea.form-control-lg {
   }
 }
 .skills__pic {
-  width: 80%;
+  width: 85vw;
+}
+@media (min-width: 992px) {
+  .skills__pic {
+    width: 80%;
+  }
 }
 
 .skill {
+  box-sizing: border-box;
   text-align: justify;
   position: relative;
   border-radius: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   background: rgba(216, 112, 147, 0.3);
   letter-spacing: 0.5px;
+}
+@media (max-width: 575.98px) {
+  .skill {
+    width: 80vw;
+  }
 }
 .skill:hover {
   transform: translateX(4px) translateY(-4px);
@@ -11833,6 +11844,8 @@ textarea.form-control-lg {
 }
 .portfolio-box:hover img {
   transform: scale(1.5);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
   transition-duration: 2s;
   transition-property: all;
 }
@@ -12182,9 +12195,13 @@ section {
 }
 
 .quote {
-  width: 35vw;
   text-align: justify;
   color: #adb5bd;
+}
+@media (min-width: 992px) {
+  .quote {
+    width: 35vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

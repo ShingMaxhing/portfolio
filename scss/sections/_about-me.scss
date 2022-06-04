@@ -34,17 +34,24 @@
     }
   }
   &__pic {
-    width: 80%;
+  @include media-breakpoint-up(lg){
+  width: 80%;
+  }
+  width: 85vw;
   }
 }
 
 .skill {
+  @include media-breakpoint-down(sm){
+  width: 80vw;
+  }
+  box-sizing: border-box;
   text-align: justify;
   position: relative;
   border-radius: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   background: rgba($color: $primary, $alpha: 0.3);
   letter-spacing: 0.5px;
 

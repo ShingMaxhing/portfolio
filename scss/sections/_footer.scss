@@ -123,7 +123,9 @@
 }
 
 .quote{
+  @include media-breakpoint-up(lg){
   width: 35vw;
+  }
   text-align: justify;
   color: $gray-500;
 }

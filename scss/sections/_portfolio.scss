@@ -49,6 +49,8 @@
   &:hover {
     img {
       transform: scale(1.5);
+      filter: blur(2px);
+      -webkit-filter: blur(2px);
       @include transitionProperty;
     }
     .portfolio-info {
