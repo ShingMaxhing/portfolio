@@ -12012,6 +12012,18 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.card {
+  max-height: 20rem;
+}
+.card a i:hover {
+  color: black;
+}
+
+.contact-ref {
+  font-size: 1.5rem;
+  color: #d87093;
+}
+
 body {
   margin: 0;
   overflow-x: hidden;

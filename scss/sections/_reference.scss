@@ -1,5 +1,5 @@
-@use "../custom" as *;
-@use "../components/mixins" as *;
+@use '../custom' as *;
+@use '../components/mixins' as *;
 
 .ref {
   position: relative;
@@ -95,4 +95,19 @@
       text-transform: capitalize;
     }
   }
+}
+
+.card {
+  max-height: 20rem;
+
+  a i {
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+.contact-ref {
+  font-size: 1.5rem;
+  color: $primary;
 }
